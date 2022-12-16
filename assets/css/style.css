@@ -56,15 +56,30 @@ h1 {
 #rock {
     background: url('../images/rock.svg') no-repeat center center;
     background-size: contain;
+    margin: 10px;
 }
 
 #paper {
     background: url('../images/paper.svg') no-repeat center center;
     background-size: contain;
+    margin: 10px;
 }
 
 #scissors {
     background: url('../images/scissors.svg') no-repeat center center;
     background-size: cover;
+    margin: 10px;
+}
+
+#lizard {
+    background: url('../images/lizard.svg') no-repeat center center;
+    background-size: contain;
+    margin: 10px;
+}
+
+#spock {
+    background: url('../images/vulcan-salute.svg') no-repeat center center;
+    background-size: contain;
+    margin: 10px;
 }
 
