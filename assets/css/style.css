@@ -28,6 +28,9 @@ h1 {
     width: 70%;
     height: 60vh;
     border-radius: 12px;
+    box-shadow: 10px 10px 86px 51px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 86px 51px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 86px 51px rgba(0,0,0,0.75);
 }
 
 .controls-area {
@@ -36,6 +39,16 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
+#results {
+    font-size: 1.6rem;
+    text-align: center;
+    border-style: double;
+    border-color: #b3daf4;
+    border-width: 30px;
+}
+
+/*score area */
 
 .scores {
     font-size: 2rem;
@@ -51,35 +64,42 @@ h1 {
     font-family: 'orbitron', sans-serif;
     color: black;
     border-radius: 100%;
+    border-style: double;
+    border-width: 5px;
 }
 
 #rock {
     background: url('../images/rock.svg') no-repeat center center;
     background-size: contain;
     margin: 10px;
+    border-color: black;
 }
 
 #paper {
     background: url('../images/paper.svg') no-repeat center center;
     background-size: contain;
     margin: 10px;
+    border-color: yellow;
 }
 
 #scissors {
     background: url('../images/scissors.svg') no-repeat center center;
     background-size: cover;
     margin: 10px;
+    border-color: red;
 }
 
 #lizard {
     background: url('../images/lizard.svg') no-repeat center center;
     background-size: contain;
     margin: 10px;
+    border-color: green;
 }
 
 #spock {
     background: url('../images/vulcan-salute.svg') no-repeat center center;
     background-size: contain;
     margin: 10px;
+    border-color: blue;
 }
 
