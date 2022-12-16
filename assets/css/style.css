@@ -48,11 +48,16 @@ h1 {
 .btn {
     height: 10rem;
     width: 10rem;
-    font-family: sans-serif;
+    font-family: 'orbitron', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.2px;
     color: black;
     border-radius: 100%;
     gap: 10px;
+}
+
+#rock {
+    background: url('../images/rock.svg') no-repeat center center;
+    background-size: contain;
 }
 
