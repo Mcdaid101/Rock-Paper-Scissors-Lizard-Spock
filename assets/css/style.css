@@ -27,5 +27,18 @@ h1 {
     margin: 0 auto;
     width: 70%;
     height: 60vh;
+}
 
+.controls-area {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.btn {
+    width: 220px;
+    height: 60px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: black;
 }
