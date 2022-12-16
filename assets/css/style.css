@@ -34,6 +34,14 @@ h1 {
   margin: 30px auto;
 }
 
+.scores {
+    font-size: 2rem;
+    display: inline-block;
+    padding: 20px;
+}
+
+/* buttons */
+
 .btn {
     width: 220px;
     height: 60px;
@@ -41,4 +49,8 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1.2px;
     color: black;
+}
+
+.btn:focus {
+    outline: none;
 }
