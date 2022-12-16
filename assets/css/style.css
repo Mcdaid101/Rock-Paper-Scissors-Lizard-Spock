@@ -63,3 +63,8 @@ h1 {
     background-size: contain;
 }
 
+#scissors {
+    background: url('../images/scissors.svg') no-repeat center center;
+    background-size: cover;
+}
+
