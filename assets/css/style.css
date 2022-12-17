@@ -45,6 +45,43 @@ h1 {
     justify-content: space-between;
 }
 
+.modal p{
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0.4rem 0 0.2rem;
+}
+
+#button1 {
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.8rem 1.4rem;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.button-open {
+    position: absolute;
+    bottom: 150px;
+}
+
+.button-close {
+    transform: translate(10px, 20px);
+    padding: 0.5rem 0.7rem;
+    background: #eee;
+    border-radius: 50%;
+}
+
+/* game area */
+
 .game-area {
     background-color: white;
     margin: 0 auto;
