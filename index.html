@@ -9,14 +9,23 @@
     <title>Rock Paper Spock</title>
 </head>
 <body>
+  <!--header-->
     <h1>
         <i class="fa-regular fa-hand-back-fist"></i><i class="fa-solid fa-toilet-paper"></i><i class="fa-regular fa-hand-spock"></i> Rock Paper Spock!
     </h1>
-    <div class="rules-pop-up">Rules 
-      <div>
-      </div>
-    </div>
-
+    <!--rules pop up-->
+      <section class="modal hidden">
+        <div>
+          <button class="button-close">X</button>
+        </div>
+        <div>
+          <h2>Rules</h2>
+          <p>These are the rules</p>
+        </div>
+      </section>
+   <div class="overlay-hidden"></div>
+ <button class="button button-open">Open modal</button>
+<!--game area-->
     <div class="game-area">
      <div class="controls-area">
        <button class="btn" id="rock"></button>
