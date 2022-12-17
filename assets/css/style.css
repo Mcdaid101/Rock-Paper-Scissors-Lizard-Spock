@@ -107,6 +107,28 @@ h1 {
 
 /* media queries */
 
+@media (max-width: 1024px) {
+   
+    h1 {
+        text-align: center;
+    }
+
+    .game-area {
+        width: 85%;
+        height: 70vh;
+    }
+
+    .controls-area {
+       width: 100%;
+    }
+
+    #results {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 1px;
+    }
+}
+
 @media (max-width: 500px) {
     h1 {
         font-size: 2.5rem;
@@ -128,7 +150,7 @@ h1 {
     }
 
     #results {
-        font-size: 1.55rem;
+        font-size: 1.45rem;
         text-align: center;
         margin-left: 100px;
         margin-right: 100px;
@@ -140,4 +162,15 @@ h1 {
         flex-direction: column;
         justify-content: center;
     }
+  }
+
+  @media (max-width: 950px) {
+     h1 {
+        text-align: center;
+     }
+
+     .controls-area {
+        width: 100%;
+     }
+
   }
