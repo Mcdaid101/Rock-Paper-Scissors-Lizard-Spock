@@ -92,6 +92,14 @@ h1 {
     backdrop-filter: blur(3px);
     z-index: 1;
 }
+
+.overlay {
+    z-index: 2;
+}
+
+.hidden {
+    display: none;
+}
 /* game area */
 
 .game-area {
