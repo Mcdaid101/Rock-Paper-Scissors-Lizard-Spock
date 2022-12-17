@@ -25,7 +25,7 @@ h1 {
 /* modal */
 
 .modal {
-    display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 0.4rem;
@@ -47,7 +47,6 @@ h1 {
 
 .modal p{
     font-size: 0.9rem;
-    color: #777;
     margin: 0.4rem 0 0.2rem;
 }
 
@@ -99,6 +98,10 @@ h1 {
 
 .hidden {
     display: none;
+}
+
+#rules {
+    text-align: center;
 }
 /* game area */
 
