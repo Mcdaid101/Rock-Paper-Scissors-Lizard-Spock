@@ -14,6 +14,9 @@ controlBtns.forEach(button => button.addEventListener("click", () => {
 
   player = button.textContent;
   computerGo();
+  playerChoice.textContent = `You chose: ${player}`;
+  computerChoice.textContent = `Computer chose: ${computer}`;
+  resultText.textContent = checkResult();
 }));
 
 function computerGo() {
@@ -38,7 +41,20 @@ function computerGo() {
   }
 }
 
-
+function checkResult() {
+  if(player == computer){
+    return "Draw!";
+  }
+  else if(computer == "rock"){
+    return(player == "paper") ? "You Win" : "You lose"
+  }
+  else if(computer == "paper"){
+    return(player == "scissors") ? "You Win" : "You lose"
+  }
+  else if(computer == "scissors"){
+    return(player == "rock") ? "You Win" : "You lose"
+  }
+}
 
 /* functions to open and close modal */
 const openModal = function () {
