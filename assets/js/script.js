@@ -6,9 +6,12 @@ const computerChoice = document.querySelector("#computer-choice");
 const resultText = document.querySelector("#result-text");
 const controlBtns = document.querySelectorAll(".btn"); 
 
+
 let player;
 let computer;
 let result;
+let playerWins = 0;
+let computerWins = 0;
 
 /* event listener for each variable's buttons */
 controlBtns.forEach(button => button.addEventListener("click", () => {
@@ -19,6 +22,7 @@ controlBtns.forEach(button => button.addEventListener("click", () => {
   computerChoice.textContent = `Computer chose: ${computer}`;
   resultText.textContent = checkResult();
 }));
+
 
 /* function for the computers go */
 function computerGo() {
