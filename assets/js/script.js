@@ -1,6 +1,11 @@
 const modal = document.querySelector(".modal");
 const openModalBtn = document.querySelector(".button-open");
 const closeModalBtn = document.querySelector(".button-close");
+const playerChoice = document.querySelector("#player-choice");
+const computerChoice = document.querySelector("#computer-choice");
+const resultText = document.querySelector("#result-text");
+const controlBtns = document.querySelectorAll(".btn"); 
+
 
 /* functions to open and close modal */
 const openModal = function () {
@@ -20,3 +25,4 @@ const openModal = function () {
     closeModal();
    }
   });
+
