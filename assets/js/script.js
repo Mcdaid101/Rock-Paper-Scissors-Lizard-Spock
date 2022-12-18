@@ -10,6 +10,7 @@ let player;
 let computer;
 let result;
 
+/* event listener for each variable's buttons */
 controlBtns.forEach(button => button.addEventListener("click", () => {
 
   player = button.textContent;
@@ -19,6 +20,7 @@ controlBtns.forEach(button => button.addEventListener("click", () => {
   resultText.textContent = checkResult();
 }));
 
+/* function for the computers go */
 function computerGo() {
   const randNum = Math.floor(Math.random() * 5) + 1;
 
@@ -41,6 +43,7 @@ function computerGo() {
   }
 }
 
+ /* function to check result of player and computers choice */
 function checkResult() {
   if(player == computer){
     return "Draw!";
@@ -87,8 +90,8 @@ function checkResult() {
   if(player === "lizard") {
     if(computer === "rock"){
       winnerText = "Rock crushes Lizard you lose!";
-    } else if (computer === "spock" ){
-      winnerText = "Scissors decapitates Lizard you win!";
+    } else if (computer === "scissors" ){
+      winnerText = "Scissors decapitates Lizard you lose!";
     } else if (computer === "spock"){
       winnerText = "Lizard poisons Spock you win!";
     } else if (computer === "paper"){
@@ -107,7 +110,6 @@ function checkResult() {
       winnerText = "Paper disproves Spock you lose!";
     }
   }
-
 
   return winnerText;
 }
