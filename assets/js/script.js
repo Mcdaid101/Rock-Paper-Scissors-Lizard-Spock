@@ -72,6 +72,18 @@ function checkResult() {
     }
   }
 
+  if(player === "scissors") {
+    if(computer === "rock"){
+      winnerText = "Rock crushes Scissors you lose!";
+    } else if (computer === "spock" ){
+      winnerText = "Spock smashes Scissors you lose!";
+    } else if (computer === "paper"){
+      winnerText = "Scissors cuts Paper you win!";
+    } else if (computer === "lizard"){
+      winnerText = "Scissors decapitates Lizard you win!";
+    }
+  }
+
   return winnerText;
 }
 
