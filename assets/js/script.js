@@ -46,7 +46,21 @@ function checkResult() {
     return "Draw!";
   }
   
-  
+  let winnerText = "";
+
+  if(player === "rock") {
+    if(computer === "lizard"){
+      winnerText = "Rock crushes Lizard you win!";
+    } else if (computer === "scissors" ){
+      winnerText = "Rock crushes Scissors you win!";
+    } else if (computer === "paper"){
+      winnerText = "Paper covers Rock you lose!";
+    } else if (computer === "spock"){
+      winnerText = "Spock vaporizes Rock you lose!";
+    }
+  }
+
+  return winnerText;
 }
 
 /* functions to open and close modal */
