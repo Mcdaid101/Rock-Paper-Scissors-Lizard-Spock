@@ -10,6 +10,34 @@ let player;
 let computer;
 let result;
 
+controlBtns.forEach(button => button.addEventListener("click", () => {
+
+  player = button.textContent;
+  computerGo();
+}));
+
+function computerGo() {
+  const randNum = Math.floor(Math.random() * 5) + 1;
+
+  switch(randNum){
+    case 1:
+      computer = "rock";
+      break;
+    case 2:
+      computer = "paper";
+      break;
+    case 3:
+      computer = "scissors";
+      break;
+    case 4:
+      computer = "lizard";
+        break;
+    case 5:
+      computer = "spock";
+        break; 
+  }
+}
+
 
 
 /* functions to open and close modal */
