@@ -60,6 +60,18 @@ function checkResult() {
     }
   }
 
+  if(player === "paper") {
+    if(computer === "rock"){
+      winnerText = "Paper covers Rock you win!";
+    } else if (computer === "spock" ){
+      winnerText = "Paper disproves Spock you win!";
+    } else if (computer === "scissors"){
+      winnerText = "Scissors cuts Paper you lose!";
+    } else if (computer === "lizard"){
+      winnerText = "Lizard eats Paper you lose!";
+    }
+  }
+
   return winnerText;
 }
 
