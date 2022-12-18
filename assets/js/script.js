@@ -96,6 +96,18 @@ function checkResult() {
     }
   }
 
+  if(player === "spock") {
+    if(computer === "rock"){
+      winnerText = "Spock vaporizes Rock you win!";
+    } else if (computer === "scissors" ){
+      winnerText = "Spock smashes Scissors you win!";
+    } else if (computer === "lizard"){
+      winnerText = "Lizard poisons Spock you lose!";
+    } else if (computer === "paper"){
+      winnerText = "Paper disproves Spock you lose!";
+    }
+  }
+
 
   return winnerText;
 }
