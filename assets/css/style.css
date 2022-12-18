@@ -178,6 +178,10 @@ h1 {
         text-align: center;
     }
 
+    .modal{
+   width: 80%;
+    }
+
     .game-area {
         width: 85%;
         height: 70vh;
