@@ -6,6 +6,11 @@ const computerChoice = document.querySelector("#computer-choice");
 const resultText = document.querySelector("#result-text");
 const controlBtns = document.querySelectorAll(".btn"); 
 
+let player;
+let computer;
+let result;
+
+
 
 /* functions to open and close modal */
 const openModal = function () {

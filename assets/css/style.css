@@ -132,6 +132,7 @@ h1 {
     border-radius: 50%;
     border-style: double;
     border-width: 5px;
+    font-size: 0%;
 }
 
 #rock {
