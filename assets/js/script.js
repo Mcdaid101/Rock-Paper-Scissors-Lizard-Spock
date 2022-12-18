@@ -84,6 +84,19 @@ function checkResult() {
     }
   }
 
+  if(player === "lizard") {
+    if(computer === "rock"){
+      winnerText = "Rock crushes Lizard you lose!";
+    } else if (computer === "spock" ){
+      winnerText = "Scissors decapitates Lizard you win!";
+    } else if (computer === "spock"){
+      winnerText = "Lizard poisons Spock you win!";
+    } else if (computer === "paper"){
+      winnerText = "Lizard eats Paper you win!";
+    }
+  }
+
+
   return winnerText;
 }
 
