@@ -116,6 +116,22 @@ h1 {
 
 /*score area */
 
+.players {
+    font-size: 2rem;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#player {
+    padding-left: 55px;
+    color: blue;
+}
+
+#computer {
+    color: red;
+}
+
 .score-area {
     font-size: 2rem;
     display: inline-block;
@@ -193,7 +209,7 @@ h1 {
     }
 
     #results {
-        font-size: 2rem;
+        font-size: .85rem;
         text-align: center;
         margin-top: 1px;
     }
@@ -208,7 +224,7 @@ h1 {
 
     .game-area {
         width: 95%;
-        height: 70vh;
+        height: 80vh;
     }
 
     .controls-area {
@@ -220,7 +236,7 @@ h1 {
     }
 
     #results {
-        font-size: 1.45rem;
+        font-size: 1rem;
         text-align: center;
         margin-left: 100px;
         margin-right: 100px;
@@ -243,12 +259,45 @@ h1 {
         width: 100%;
      }
 
+     #results {
+        font-size: 1rem;
+       }
   }
+
 /* media query specifically for iphone 5 */
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
 and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
 {
    #results {
-    font-size: 1rem;
+    font-size: .5rem;
    }
+
+   .players {
+    font-size: .75rem;
+   }
+
+   #player {
+    padding-left: 22px;
+    color: blue;
 }
+}
+ /* specfically for galaxy fold */
+@media(max-width: 320px){ 
+    
+    #results {
+        font-size: .58rem;
+    }
+
+    .players {
+        font-size: .75rem;
+    }
+
+    .score-area {
+        font-size: .75rem;
+    }
+
+    #player {
+        padding-left: 23px;
+        color: blue;
+    }
+  }
