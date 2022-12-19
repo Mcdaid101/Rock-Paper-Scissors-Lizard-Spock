@@ -18,7 +18,35 @@
     <div class="about-area">
       <h2>Sign up here to keep up to date with what great games we have coming out in the future!</h2>
       <form name="signup-form" action="" method="post">
-         
+         <p class="success register-success"></p>
+          <!--Email-->
+         <label>Email <span>Please enter your email</span></label>
+         <input type="text" name="email">
+         <p class="error email-error"></p>
+          <!--Username-->
+         <label>Username <span>Please enter a Username</span></label>
+         <input type="text" name="username">
+         <p class="error username-error"></p>
+          <!--Password-->
+         <label>Password <span>Please enter a password</span></label>
+         <input type="text" name="password">
+         <p class="error password-error"></p>
+          <!--Confirm Password-->
+         <label>Confirm your Password <span>Please confirm your password</span></label>
+         <input type="text" name="confirm-password">
+         <p class="error confirm-password-error"></p>
+         <!--Subscribe to our mailing list-->
+         <div class="mailing-list">
+           <p>
+            <input type="radio" name="mailing" value="yes"> <span>Yes</span>
+           </p>
+           <p>
+            <input type="radio" name="mailing" value="no"> <span>No</span>
+           </p>
+         </div>
+         <!--Submit button-->
+         <input type="submit" name="register-submission" value="sign-up">
+         <p class="error register-error"></p>
       </form>
     </div>
 </body>
