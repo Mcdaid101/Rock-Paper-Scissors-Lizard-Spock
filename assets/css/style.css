@@ -231,6 +231,11 @@ h1 {
         height: 70vh;
     }
 
+    .about-area {
+        width: 85%;
+        height: 80vh;
+    }
+
     .controls-area {
        width: 100%;
     }
@@ -250,6 +255,11 @@ h1 {
     }
 
     .game-area {
+        width: 95%;
+        height: 80vh;
+    }
+
+    .about-area {
         width: 95%;
         height: 80vh;
     }
