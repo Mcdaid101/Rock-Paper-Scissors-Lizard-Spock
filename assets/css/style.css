@@ -16,6 +16,11 @@ body {
     font-size: 62.5%;
 }
 
+#logo {
+    text-decoration: none;
+    color: black;
+}
+
 h1 {
     padding-top: 100px;
     font-size: 5rem;
@@ -68,7 +73,7 @@ h1 {
 }
 
 .button-open {
-   margin-bottom: 50px;
+   margin-bottom: 25px;
 }
 
 .button-close {
@@ -185,6 +190,28 @@ h1 {
     background-size: contain;
     margin: 10px;
     border-color: blue;
+}
+
+/* About page */
+
+#about-btn {
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+#home-btn {
+    margin-bottom: 40px;
+}
+
+.about-area {
+    background-color: white;
+    margin: 0 auto;
+    width: 70%;
+    height: 60vh;
+    border-radius: 12px;
+    box-shadow: 10px 10px 86px 51px #1c558abf;
+    -webkit-box-shadow: 10px 10px 86px 51px rgba(28,85,138,0.75);
+    -moz-box-shadow: 10px 10px 86px 51px rgba(28,85,138,0.75);
 }
 
 /* media queries */

@@ -16,7 +16,7 @@ let computerWins = 0;
 scoreArea.prepend(playerWins);
 scoreArea.append(computerWins);
 
-/* event listener for each variable's buttons */
+/* event listener for each variable's buttons this kicks off the functions inside */
 controlBtns.forEach(button => button.addEventListener("click", () => {
 
   player = button.textContent;
@@ -54,7 +54,7 @@ function computerGo() {
  /* function to check result of player and computers choice */
 function checkResult() {
   if(player == computer){
-    return "Draw!";
+    return "It's a Draw!";
   }
   
   let winnerText = "";

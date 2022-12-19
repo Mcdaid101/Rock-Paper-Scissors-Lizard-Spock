@@ -10,9 +10,10 @@
 </head>
 <body>
   <!--header-->
-    <h1>
+    <a href="index.html" id="logo"><h1>
         <i class="fa-regular fa-hand-back-fist"></i><i class="fa-solid fa-toilet-paper"></i><i class="fa-regular fa-hand-spock"></i> Rock Paper Spock!
-    </h1>
+    </h1></a>
+    <a href="about.html" class="button" id="about-btn">About</a>
     <button class="button button-open">How to play</button>
     <!--rules pop up-->
       <section class="modal hidden">
@@ -36,19 +37,21 @@
            <p>Spock vaporizes Rock</p>
            <p>Rock crushes Scissors</p>
            <br>
-           <h2>Click the icon to choose your variable, the computer will then pick it's own variable and the winner will be revealed. The first to win 5 rounds is the victor!</h2>
+           <h2>Click the icon to choose your variable, the computer will then pick it's own variable and the winner will be revealed</h2>
         </div>
       </div>
       </section>
-<!--game area-->
+<!--Game Area-->
     <div class="game-area">
-     <div class="controls-area">
+     <div class="controls-area">   
+      <!--Game Control buttons-->
        <button class="btn" id="rock">Rock</button>
        <button class="btn" id="paper">Paper</button>
        <button class="btn" id="scissors">Scissors</button>
        <button class="btn" id="lizard">Lizard</button>
        <button class="btn"id="spock">Spock</button>
      </div>
+      <!--Player and computer choice is outputted here-->
      <div id="results">
       <h3 class="choice-results" id="player-choice">You chose:</h3>
       <br>
@@ -62,7 +65,7 @@
       <span class="players">|</span>
       <span class="players" id="computer">Computer</span>
     </div>
-    
+      <!--Incremented scores outputted here-->
     <div class="score-area">
       <span>:</span>
     </div>
