@@ -215,9 +215,16 @@ form {
 	margin: 0 auto 0 auto;
 	border:  thin solid #e4e4e4;
 	padding: 20px;
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 10px 10px 86px 51px #1c558abf;
+    -webkit-box-shadow: 10px 10px 86px 51px rgba(28,85,138,0.75);
+    -moz-box-shadow: 10px 10px 86px 51px rgba(28,85,138,0.75);
+    border-radius: 15px;
     margin-bottom: 50px;
     background-color: white;
+}
+
+form p, label {
+    font-size: 0.9rem;
 }
 
 form label {
