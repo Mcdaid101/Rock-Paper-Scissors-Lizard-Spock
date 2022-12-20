@@ -263,11 +263,6 @@ form input::placeholder {
     font-size: 16px;
 }
 
-#mailing-list-qs {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 form button {
     background: #32749a;
 	color: white;
@@ -288,11 +283,6 @@ form button:active {
     background-color: #ffe0e0;
     padding: 8px;
     display: none;
-}
-
-.success {
-    margin-top: 30px;
-    color: green;
 }
 
 /* media queries */

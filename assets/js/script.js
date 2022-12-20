@@ -56,9 +56,10 @@ function checkResult() {
   if(player == computer){
     return "It's a Draw!";
   }
-  
+  /*empty winner text */
   let winnerText = "";
 
+  /*rock if statement increments score and adds to the empty winner text*/
   if(player === "Rock") {
     if(computer === "Lizard"){
       playerWins++;
@@ -75,6 +76,7 @@ function checkResult() {
     }
   }
 
+ /* paper if statement */
   if(player === "Paper") {
     if(computer === "Rock"){
       playerWins++;
@@ -91,6 +93,7 @@ function checkResult() {
     }
   }
 
+  /* scissors if statement */
   if(player === "Scissors") {
     if(computer === "Rock"){
       computerWins++;
@@ -107,6 +110,7 @@ function checkResult() {
     }
   }
 
+  /* lizard if statement */
   if(player === "Lizard") {
     if(computer === "Rock"){
       computerWins++;
@@ -123,6 +127,7 @@ function checkResult() {
     }
   }
 
+  /* spock if statement */
   if(player === "Spock") {
     if(computer === "Rock"){
       playerWins++;
@@ -138,7 +143,7 @@ function checkResult() {
       winnerText = "Paper disproves Spock you lose!";
     }
   }
-
+  /* winner text is returned containing the outcome*/
   return winnerText;
 }
 

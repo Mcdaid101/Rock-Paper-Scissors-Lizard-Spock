@@ -1,108 +1,676 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Table of contents
+1. [Purpose](#Purpose)
 
-Welcome Mcdaid101,
+2. [User Experience](#User-Experience)
+ * [Target Audience](#target-audience)
+ * [User Expectations](#User-expectations)
+ * [User Stories](#user-stories)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+3. [Structure and Design](#Structure-and-Design)
+ * [Website Structure](#website-structure)
+ * [Colour](#Colour)
+ * [Fonts](#Fonts)
+ * [Wireframes](#Wireframes)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+ 4. [Technology Used](Technology-Used)
+ * [Languages](#languages)
+ * [Tools and Frameworks](#tools-and-frameworks)
 
-## Gitpod Reminders
+ 5. [Features](#Features)
+ * [Logo and navigation bar](#logo-and-navigation-bar)
+ * [Footer](#footer)
+ * [Home Page](#home-page)
+ * [Showroom](#showroom)
+ * [Contact](#contact)
+ * [Form](#form)
+ * [Map](#map)
+ * [About](#about)
+ * [Youtube video](#youtube-video)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+ 6. [Validation](#validation)
+ * [HTML validation](#html-validation)
+ * [CSS validation](#css-validation)
 
-`python3 -m http.server`
+ 7. [Performance](#performance)
+ * [Performance testing using different devices](#performance-testing-using-different-devices/browsers)
 
-A blue button should appear to click: _Make Public_,
+ 8. [Testing](#testing)
+ * [Testing User Stories](#testing-user-stories)
 
-Another blue button should appear to click: _Open Browser_.
+ 9. [Bugs](#bugs)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+ 10. [Deployment](#deployment)
+ * [Creating this project](#creating-this-project)
+ * [Github pages](#github-pages)
+ * [To run locally](#to-run-locally)
 
-A blue button should appear to click: _Make Public_,
+ 11. [Credits](#credits)
+ * [Code](#code)
+ * [media](#media)
+ * [Acknowledgements](#acknowledgements)
 
-Another blue button should appear to click: _Open Browser_.
+<br>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# Purpose
+I built this website as my second project for the code institutes full stack development and e-commerce applications course. 
+I built this website from scratch using the knowledge I gained from the course where I studied the basics of HTML, CSS and Javascript. 
 
-To log into the Heroku toolbelt CLI:
+You can find a link to the live website [here](https://mcdaid101.github.io/Rock-Paper-Scissors-Lizard-Spock/).	
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Tommy Keys Car Sales
+![Website Mock Up](assets/images/readme-images/multi-device-generator.png)
+This website was built for fans of the Big Bang Theory and Star trek. This fun online game of rock, paper, scissors incorporates the Star Trek character Spock and a lizard into the mix, giving the game many more outcomes. Many people will know this version of the game from the television series The Big Bang Theory.
+<br>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# User Experience
 
-------
+## Target Audience 
+* Fans of the Big Bang theory
+* Online gamers
+* Fans of Star Trek
+<br>
 
-## Release History
+## User Expectations 
+* Simple and easily navigated website
+* Information on the game's rules that can be easily accessed
+* Fully functioning links and features 
+* Easily found Account sign up 
+* Good design and presentation 
+<br>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## User Stories
+<br>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### As a first time user:
+1. I want to be able to easily navigate the site.
+2. I want to be able to play the game. 
+3. I want to know what my score is in the game.
+4. I want to know what my opponent's (the computer's) score is. 
+5. I want to be able to view the website clearly on my mobile phone. 
+6. I want to know the rules of the game. 
+7. I want to know what button I chose.
+8. I want to know what the computer picked in response.
+9. I want to know the result of that round. 
+10. I want to be able to easily navigate back to the home page.
+<br>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### As a returning user:
+1. I want to be able to sign up to know about future games produced by the creator. 
+<br>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### As the site owner:
+1. I want users to know how to play the game.
+2. I want users to be able to sign up to our site to receive news on future games. 
+3. I want users to be able to easily navigate the site. 
+<br>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+# Structure and Design  
+Each page on the site has the same header with the Rock Paper Spock logo on it, the home page has a sign up button which brings you to the about page and a pop up modal which explains how the game works. Below the buttons on the home page lies the Game area which has the game's option buttons which are fully interactive along with the result of the player's choice and the computer's choice and the outcome of who won. At the very bottom of the page is where the player and the computer's scores are incremented. In the about page below the home button is a form where players can sign up to create an account and get emailed about future games made by the creator. 
+<br>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Website Structure 
+1. Home page containing buttons to the about page and rules modal and the game itself and a score area.
+2. About page contains form to sign up and create an account.
+3. 404 page. 
+<br>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Colour
+The website was designed using a similar color #b3e6f4 to that of the star trek character Spock's iconic blue jumper, who is a feature of this game. The box shadow used on the home and about page containers also uses a box shadow effect which is also blue in color adding to the spock theme. 
+<br>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Fonts
+The sole font family used is imported from the Google Fonts website and is called 'orbitron', this font has been used extensively throughout the website as it looks like a traditional computer game style font and suits the theme of the website. 
+<br>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Wireframes
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<details><summary>Home</summary>
+<p>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Website Mock Up](assets/readme.images/hscreenshot.png)
+</p>
+</details>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<details><summary>Showroom</summary>
+<p>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![Website Mock Up](assets/readme.images/showscreenshots%20.png)
+</p>
+</details>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<details><summary>Contact</summary>
+<p>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Website Mock Up](assets/readme.images/contactscreenshot.png)
+</p>
+</details>
 
-------
+<details><summary>About</summary>
+<p>
 
-## FAQ about the uptime script
+![Website Mock Up](assets/readme.images/about.screenshot.png)
+</p>
+</details>
 
-**Why have you added this script?**
+<br>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Differences to wireframes
+* Unable to get the menu nav bar to sit the way I planned in the wireframes.
 
-**How will this affect me?**
+<br>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+# Technology Used 
+<br>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Languages 
+* HTML 
+* CSS 
+* Javascript
+<br>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Tools and Frameworks
+* Git 
+* Github 
+* Google Fonts 
+* Font Awesome
+* GlassMorphism Generator from Glass Ui
+* Vs Code IDE in browser
+* Chrome developer tools 
+* Techsini Multi Device Mockup Generator used in this readme to display an image of the website on different devices 
+<br>
 
-**So….?**
+# Features
+This website contains 4 webpages
+<br>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+<details><summary>Expand for Screenshots of each page and feature</summary>
+<p>
 
-**Can I opt out?**
+## Logo and navigation bar 
+![Logo and navigation bar](assets/readme.images/logo.nav.bar.png)
+* The logo and nav bar are on each page 
+* The nav bar and logo are fully responsive on every device screen size
+* It includes links to the Home page through clicking on the logo and the Home button along with links to the showroom, contact and about pages
+* When hovered over their is a red line to indicate you are interacting with it 
+<br>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Footer
+![Footer](assets/readme.images/footer.png)
+* The footer is also present on every page 
+* The footer contains a link to Facebook, Twitter, Instagram, Youtube and Tiktok
+* It is fully responsive to different screen sizes 
+<br>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* The Footer covers the first time user stories: 4.    
+* Frequent user stories: 2.    
+* Site owner needs: 2. 
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Home page
+![Home Page](assets/readme.images/home.page.png)
+* This is the home page the first page users see
+* Users have a link to the contact page through the book a test drive link
+* Users have a link to the showroom to view other cars and 
+* The dealership's opening times can be viewed at bottom of the page
+<br>
 
----
+* The Home page helps meet the first time user stories: 1, 4.
+* Returning user stories: 2, 3.      
+* Frequent user stories: 1, 2.     
+* Site owner needs: 1, 2. 
 
-Happy coding!
+## Showroom 
+![Showroom Page](assets/readme.images/showroom.page.png)
+* Showroom contains a gallery of cars 
+* The gallery is fully responsive to any device screen 
+<br>
+
+* The Showroom helps meet the first time user stories: 4.     
+* Frequent user stories: 1, 2.     
+* Site owner needs: 2. 
+
+## Contact 
+![Contact Page](assets/readme.images/contact.page.png)
+* The contact page gives users the opportunity to contact the dealership or for the dealership to contact them
+* The contact page contains a contact form with the option of booking a test drive 
+* Telephone numbers, email and opening times are also present 
+* An embedded location of the dealership on Google maps can also be used on the contact page 
+* This page is fully responsive to any device screen 
+<br>
+
+* The Contact page helps meet the first time user stories: 3, 4, 5.
+* Returning user stories: 1, 2, 3.      
+* Frequent user stories: 2.     
+* Site owner needs: 1, 3. 
+
+## Form 
+![Contact Page](assets/readme.images/form.png)
+* The form is used as a contact point for users 
+* Once their details are submitted the dealership can ring them back 
+* It also allows them to book a test drive through a radio button
+* Fully responsive to any device screen size 
+<br>
+
+* The Contact page helps meet the first time user stories: 5.
+* Returning user stories: 1, 2, 3.          
+* Site owner needs: 1. 
+
+## Map 
+![Contact Page](assets/readme.images/map.png)
+* An embedded google maps location of the dealership 
+* Fully responsive to any device screen size 
+<br>
+
+* The Map helps meet the first time user stories: 3.   
+* Site owner needs: 3. 
+
+## About 
+![About Page](assets/readme.images/top.about.page.png)
+* The About page gives users more information about Tommy Keys Car Sales and gives a bit of history behind the company
+* An embedded youtube video tells the story of Tommy Keys Car Sales 
+* This page is fully responsive to any device screen 
+<br>
+
+* The About page helps meet the first time user stories: 1, 2, 3, 5.      
+* Frequent user stories: 2, 3.     
+* Site owner needs: 2. 
+
+## Youtube video
+![Contact Page](assets/readme.images/youtubevid.png)
+* An embedded youtube video of the story of Tommmy Keys car sales
+* Fully responsive to any device screen size 
+<br>
+
+* The Youtube video helps meet the first time user stories: 2, 3.     
+* Frequent user stories: 3.     
+* Site owner needs: 2. 
+
+## 404 page
+![404 page](assets/readme.images/404page2.png)
+* 404 page if something goes wrong.
+
+<br>
+
+</p>
+</details>
+<br>
+
+# Validation 
+<br>
+
+## HTML validation 
+I tested the website with the W3C HTML Markup validation service and fixed anything that failed.
+<details><summary>HTML validation Screenshot</summary>
+<p>
+
+![html-validated](assets/readme.images/HTML-validator.png)
+
+</p>
+</details>
+
+<details><summary>Index.html</summary>
+<p>
+
+![html-validated](assets/readme.images/index.html.validated.png)
+
+</p>
+</details>
+
+<details><summary>Showroom</summary>
+<p>
+
+![html-validated](assets/readme.images/showroom.html.validate.png)
+
+</p>
+</details>
+
+<details><summary>Contact</summary>
+<p>
+
+![html-validated](assets/readme.images/contact.html.validate.png)
+
+</p>
+</details>
+
+<details><summary>About</summary>
+<p>
+
+![html-validated](assets/readme.images/about.html.validate.png)
+
+</p>
+</details>
+
+## CSS validation 
+I tested the website with the W3C CSS Markup validation service and fixed anything that failed.
+<details><summary>CSS validation Screenshot</summary>
+<p>
+
+![CSS-validated](assets/readme.images/CSS-screenshot%20.png)
+
+</p>
+</details>
+
+<br>
+
+# Performance 
+Google lighthouse was used to test the performance of the website 
+
+<details><summary>Home Page</summary>
+<p>
+
+![Lighthouse](assets/readme.images/Home.report.png)
+
+</p>
+</details>
+
+<details><summary>Showroom</summary>
+<p>
+
+![Lighthouse](assets/readme.images/showroom.report.png)
+
+</p>
+</details>
+
+<details><summary>Contact</summary>
+<p>
+
+![Lighthouse](assets/readme.images/contact.report.png)
+
+</p>
+</details>
+
+<details><summary>About</summary>
+<p>
+
+![Lighthouse](assets/readme.images/about-lighthouse-report.png)
+
+</p>
+</details>
+<br>
+
+
+## Performance testing using different devices/browers
+The website was tested on three devices:
+* Apple Ipad Air 
+* Apple Iphone XR 
+* ASUS vivobook 
+* Chrome developer tools were also used in the testing process with its many different device toggling options. 
+The following browsers were used in compatability testing:
+* Google Chrome 
+* Microsoft Edge
+Site fully functioning on each device and browser 
+
+# Testing 
+
+## Testing User Stories
+<br>
+
+## First time stories 
+* As a first time user: I want to learn more about the site and easily navigate it. <br>
+Testing done to make sure that all links work so all users can easily navigate the page and eveyrthing is fully visible. 
+<details><summary>First time user 1</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Nav bar | Check links on nav bar bring you to same page they are named after | Links when clicked bring you to page they are named after | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+* As a first time user: I want to be able to learn more about the business. <br>
+ Testing done to ensure that the link to the about page is working and the text area and embedded youtube video is responsive to any device screen.
+<details><summary>First time user 2</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About page | Click on about on nav bar and check that link brings you to about page | About button brings user to About page where they can learn more about the business | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+* As a first time user: I want to engage with interactive content such as a video.<br>
+ Testing done to ensure the youtube video on the about page is capable of playing along with changing the level of audio, also ensured it is responsive to any device screen.
+<details><summary>First time user 3</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Youtube video | Navigate to about page and click on youtube video and check it plays  | Youtube video should be responsive to any device and have no problem playing video | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+* As a first time user: I want to find out where exactly the business is located. <br>
+ Testing done to ensure the link to the contact page is working and the embedded google map is functioning and showing the exact location of the car dealership. 
+<details><summary>First time user 4</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Map |Navigate to the contact page and view the embedded google maps of dealership location  | Google maps should be seen on any device screen as it is fully responsive | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+* As a first time user: I want to be able to view the website clealry on my mobile phone. <br>
+ Testing done to ensure that the entire website is fully responsive to any mobile device using chrome developer tools and physical Iphone and Ipad. 
+<details><summary>First time user 5</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Entire website |Checked through chrome developer tools that the site is fully responsive across different screen sizes | The website is responsive over any screen size | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+* As a first time user: I want to be able to find contact information easily. <br>
+Testing done to ensure the links to the contact page are fully functioning and the contact form/box is fully visible and easily read. 
+<details><summary>First time user 6</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Contact button | Navigate to contact page and ensure link brings you there, ensure the contact information below the form is clearly visible applying a blurred background to make the text more readable  | Able to navigate to the contact page successfully and easily find the contact info | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+## Returning stories 
+* As a returning user: I want to be able to submit a call back request on the contact form. <br>
+ Testing done to ensure that the form on the about page has working input boxes with the correct input types, along with a functioning radio button and submit and reset buttons.
+<details><summary>Returning user 1</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Contact form |Navigate to the contact page, fill in the form entering your name, email and phone number and click submit form  | The contact form submits successfully | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+*  As a returning user: I want to be able to book a test drive for a new car that is coming out. <br>
+ Testing done to ensure that the yes and no radio buttons that give the option of arranging a test drive are fully functioning along with the submit and reset form buttons. 
+<details><summary>Returning user 2</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Contact form |Navigate successfully to the contact form from the nav bar's page contact and fill in the form and click the yes radio button followed by submit |Code institute page will appear saying you have submitted your form successfully | Works as expected |
+|Book a test drive link on the home page | Navigate successfully to the contact form from the home page's book a test drive link and fill in the form and click the yes radio button followed by submit | Code institute page will appear saying you have submitted your form successfully | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+* As a returning user: I want to find out what days and times the dealership is open.<br>
+Testing done to ensure the link to the contact page is working and the what time and days the business are open on.
+<details><summary>Returning user 3</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Opening days and times at bottom of home page | Navigate to the bottom of the home page and view the opening times  | Opening times can be viewing clearly in a yellow color at the bottom of the home page | Works as expected |
+| Opening days and times at the bottom of the contact form | Navigate to the bottom of the contact page and view the opening times at the bottom of the form  | Opening times can be viewing clearly at the bottom of the form | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+## Frequent stories 
+* As a frequent user: I want to view the online showroom to see what cars are available. <br>
+Testing done to ensure that the links to the showroom page are active and that every image of each car is easily visible and responsive to any device screen size.
+<details><summary>Frequent user 1</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Showroom button on nav bar  | Check link on the nav bar brings you to the showroom | Link on nav bar brings you to the showroom | Works as expected |
+| Link to view other cars on the home page |check link on home page brings you to showrooom | Link brings you to showroom  | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+* As a frequent user: I want to check out the business's social medias which are linked to the site. <br>
+Testing done to ensure that each social media link on the footer of each page is working and sends the user to the correct site in a new tab. 
+<details><summary>Frequent user 2</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Footer |Check links on the footer bring you to each social medias site in a different tab | each icon's link brings you to its assigned social media website  | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+* As a frequent user: I want to learn more about the business through their videos. <br>
+Testing done to ensure that the link to the about page is fully funcioning and the embedded youtube and it's functions are working and are responsive to any screen size. 
+<details><summary>Frequent user 3</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Youtube video | Navigate to about page and click on youtube video and check it plays  | Youtube video should be responsive to any device and have no problem playing video | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+## Owner stories 
+* As the site owner: I want users to be able to contact the business easily. <br>
+Testing done to ensure that users on the site can easily navigate to the contact page and see the contact info clearly on the page along with a contact form which can be filled out to arrange a call back from the business. 
+<details><summary>Site owner 1</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Contact button | Navigate to contact page and ensure link brings you there, ensure the contact information below the form is clearly visible applying a blurred background to make the text more readable  | Able to navigate to the contact page successfully and easily find the contact info | Works as expected |
+|Form | Navigate to contact page and ensure link brings you there, ensure the form can be submitted with the users details so the business can call them back | Able to navigate to the contact page successfully and easily find the contact info and submit the users details| Works as expected |
+| Footer| Ensure social media links work so user can contact business through them | the social media links bring the user to the business social media | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+* As the site owner: I want users to get to know my business. <br>
+Testing done to ensure that links to the about page are fully functioning and information about the business is clearly visible and presented well along with a functioning and fully resposive youtube video.
+<details><summary>Site owner 2</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|About page | Check to see the about page can be navigated to, it's text is clearly visible against the hero image background and its youtube video can be played and is fully responsive on any device | About page navigated to easily and text is visible and everything is fully responsive | Works as expected |
+</p>
+</details>
+<br>
+<br>
+
+* As the site owner: I want users to know where my business is located. <br>
+Testing done to ensure users can easily navigate to the contact section and see the location of the dealership on the fully responsive google maps which is displayed on the page. 
+<details><summary>Site owner 3</summary>
+<p>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|Map | Navigate to the contact page and see the google maps embedded live image of the dealership's location  | After navigating to the contact page you will see a google maps map of the dealerships exact location | Works as expected |
+</p>
+</details>
+<br>
+
+# Bugs 
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+|Text on certain pages was hard to read against the image background beneath it.  | Used the glass morphism generator code from Glass Ui to blur the background slightly making the text more readable. |
+| The form and map on the Contact page were failing to fit on the page when viewed from a mobile |Changed the display to flex and used a media query to change the display from a column to a row. |
+| The user was able to submit the contact form with nothing inputted to the text boxes.  | Added a required attribute to the input fields. |
+| Youtube video failing to be responsive to any other device screen size than the one I had initially embedded it on. | Placed the Iframe within a container and gave it the position of relative and gave the Iframe itself a position of absolute, this made the youtube video responsive.  |
+
+<br>
+
+# Deployment 
+
+## Creating this project
+This project was created by navigating to the Code Institute's student template and clicking the 'use this template' button. I then inputted the repository name "tommy-keys-car-sales" and included all branches. With the repository now created, I used the browser version of Vs Code to create the project. 
+<br>
+
+I used the following commans throughout this project:
+* Git add . - This added my file to the staging area to be committed
+* Git commit -m - This command committed any changes to the local repository along with a message
+* Git push - pushed my changes to the github repository 
+
+## Github pages 
+1. Navigate to the tommy-keys-car-sales repository 
+2. Click on settings
+3. Click on pages 
+4. Select 'master branch' as source 
+5. Then save 
+6. Link is then generated to go to the live page 
+
+## To run locally 
+1. Navigate to the tommy-keys-car-sales repository 
+2. Click the code drop down menu 
+3. Click download as Zip
+4. Open with IDE of choice 
+5. Or 
+6. open a terminal in an IDE and use git clone command followed by your git URL of the repository 
+7. The project will then be created in your IDE
+
+# Credits 
+
+## Code 
+* The blurred effect over the hero image on the home page, behind the form and map and text on the contact page is taken from the GlassMorphism Generator from [Glass UI](https://ui.glass/generator/).
+* The showrooms gallery code and media query is inspired by the code institutes [love running project](https://github.com/Code-Institute-Solutions/Love-Running-Solutions).
+* The code which made the embedded youtube video on the about page responsive was taken from a youtube video by [TipswithPunch](https://www.youtube.com/watch?v=9YffrCViTVk)
+* The code for my 404.html page is taken from the Daft.DEV Blog, [a blog explaining how to set up your own 404 page](https://draft.dev/learn/github-pages-404).
+
+## Media 
+* Contact page background photo by Martin Katler on [Unsplash](https://unsplash.com/photos/ojet5e6Fzcc)
+* Home page background photo is by the Hyundai Motor Group on [Pexels](https://www.pexels.com/photo/front-view-of-white-hyundai-car-on-wet-road-11482358/)
+* car1.jpg by Hyundai Motor Group on [Pexels](https://www.pexels.com/photo/latest-model-of-hyundai-car-11158776/)
+* car2.jpg by Erik Mclean from [Pexels](https://www.pexels.com/photo/red-hyundai-parked-on-gray-concrete-pavement-4077271/)
+* car3.jpg Photo by Erik Mclean from [Pexels](https://www.pexels.com/photo/photo-of-white-car-on-wet-road-9846121/)
+* car4.jpg Photo by Louis de Gonzague Kubwimana from [Pexels](https://www.pexels.com/photo/photo-of-red-vehicle-on-the-road-9521979/)
+* car5.jpg Photo by As3dht from [Pexels](https://www.pexels.com/photo/hyundai-14158895/)
+* car7.jpg Photo by Hyundai Motor Group from [Pexels](https://www.pexels.com/photo/white-car-parked-in-the-garage-11194510/)
+* car8.jpg Photo by Velroy Fernandes from [Pexels](https://www.pexels.com/photo/a-black-hatchback-car-on-the-road-8984923/)
+* car-salesman.jpg Photo by Antoni Shkraba from [Pexels](https://www.pexels.com/photo/a-salesman-talking-to-a-couple-7144253/)
+* The youtube video on the About page is from [Hyundai Ireland](https://www.youtube.com/watch?v=uRTZN9vb7MI)
+* All other media is my own. 
+
+## Acknowledgements 
+* I'd like to thank my mentor Ronan Mc Clelland for his help and advice through this project, especially for any additional resources he provided to help solve any bugs I was experiencing. 
+* My girlfriend Lucy for her help on some of the visual aspects of the website and her overall support. 
+* Anyone who has helped me on slack in my code institute cohort. 
+* And finally my grandfather Thomas keys who owns a car dealership and garage in Letterkenny, County Donegal and sold me my first car a Hyundai i30. The main inspiration behind this website. 
