@@ -127,7 +127,7 @@ The sole font family used is imported from the Google Fonts website and is calle
 <details><summary>Home</summary>
 <p>
 
-![Website Mock Up](assets/readme.images/hscreenshot.png)
+![Website Mock Up](assets/images/)
 </p>
 </details>
 
@@ -154,9 +154,6 @@ The sole font family used is imported from the Google Fonts website and is calle
 
 <br>
 
-### Differences to wireframes
-* Unable to get the menu nav bar to sit the way I planned in the wireframes.
-
 <br>
 
 # Technology Used 
@@ -177,6 +174,12 @@ The sole font family used is imported from the Google Fonts website and is calle
 * Vs Code IDE in browser
 * Chrome developer tools 
 * Techsini Multi Device Mockup Generator used in this readme to display an image of the website on different devices 
+* html-css-js box shadow generator
+* iconduck.com free online icons - source of site favicon and the game icons
+* Freecodecamp - modal functions help
+* Digitalfox tutorials - error messages in html form with javascript
+* Bro Code - functions help
+
 <br>
 
 # Features
@@ -622,16 +625,18 @@ Testing done to ensure users can easily navigate to the contact section and see 
 # Deployment 
 
 ## Creating this project
-This project was created by navigating to the Code Institute's student template and clicking the 'use this template' button. I then inputted the repository name "tommy-keys-car-sales" and included all branches. With the repository now created, I used the browser version of Vs Code to create the project. 
+This project was created by navigating to the Code Institute's student template and clicking the 'use this template' button. I then inputted the repository name "
+Rock-Paper-Scissors-Lizard-Spock" and included all branches. With the repository now created, I used the browser version of Vs Code to create the project. 
 <br>
 
 I used the following commans throughout this project:
 * Git add . - This added my file to the staging area to be committed
 * Git commit -m - This command committed any changes to the local repository along with a message
 * Git push - pushed my changes to the github repository 
+* git reset --hard HEAD^ - This removed my last commit 
 
 ## Github pages 
-1. Navigate to the tommy-keys-car-sales repository 
+1. Navigate to the Rock-Paper-Scissors-Lizard-Spock repository 
 2. Click on settings
 3. Click on pages 
 4. Select 'master branch' as source 
@@ -639,7 +644,7 @@ I used the following commans throughout this project:
 6. Link is then generated to go to the live page 
 
 ## To run locally 
-1. Navigate to the tommy-keys-car-sales repository 
+1. Navigate to the Rock-Paper-Scissors-Lizard-Spock repository 
 2. Click the code drop down menu 
 3. Click download as Zip
 4. Open with IDE of choice 
@@ -650,27 +655,10 @@ I used the following commans throughout this project:
 # Credits 
 
 ## Code 
-* The blurred effect over the hero image on the home page, behind the form and map and text on the contact page is taken from the GlassMorphism Generator from [Glass UI](https://ui.glass/generator/).
-* The showrooms gallery code and media query is inspired by the code institutes [love running project](https://github.com/Code-Institute-Solutions/Love-Running-Solutions).
-* The code which made the embedded youtube video on the about page responsive was taken from a youtube video by [TipswithPunch](https://www.youtube.com/watch?v=9YffrCViTVk)
-* The code for my 404.html page is taken from the Daft.DEV Blog, [a blog explaining how to set up your own 404 page](https://draft.dev/learn/github-pages-404).
+* 
 
 ## Media 
-* Contact page background photo by Martin Katler on [Unsplash](https://unsplash.com/photos/ojet5e6Fzcc)
-* Home page background photo is by the Hyundai Motor Group on [Pexels](https://www.pexels.com/photo/front-view-of-white-hyundai-car-on-wet-road-11482358/)
-* car1.jpg by Hyundai Motor Group on [Pexels](https://www.pexels.com/photo/latest-model-of-hyundai-car-11158776/)
-* car2.jpg by Erik Mclean from [Pexels](https://www.pexels.com/photo/red-hyundai-parked-on-gray-concrete-pavement-4077271/)
-* car3.jpg Photo by Erik Mclean from [Pexels](https://www.pexels.com/photo/photo-of-white-car-on-wet-road-9846121/)
-* car4.jpg Photo by Louis de Gonzague Kubwimana from [Pexels](https://www.pexels.com/photo/photo-of-red-vehicle-on-the-road-9521979/)
-* car5.jpg Photo by As3dht from [Pexels](https://www.pexels.com/photo/hyundai-14158895/)
-* car7.jpg Photo by Hyundai Motor Group from [Pexels](https://www.pexels.com/photo/white-car-parked-in-the-garage-11194510/)
-* car8.jpg Photo by Velroy Fernandes from [Pexels](https://www.pexels.com/photo/a-black-hatchback-car-on-the-road-8984923/)
-* car-salesman.jpg Photo by Antoni Shkraba from [Pexels](https://www.pexels.com/photo/a-salesman-talking-to-a-couple-7144253/)
-* The youtube video on the About page is from [Hyundai Ireland](https://www.youtube.com/watch?v=uRTZN9vb7MI)
-* All other media is my own. 
+*
 
 ## Acknowledgements 
-* I'd like to thank my mentor Ronan Mc Clelland for his help and advice through this project, especially for any additional resources he provided to help solve any bugs I was experiencing. 
-* My girlfriend Lucy for her help on some of the visual aspects of the website and her overall support. 
-* Anyone who has helped me on slack in my code institute cohort. 
-* And finally my grandfather Thomas keys who owns a car dealership and garage in Letterkenny, County Donegal and sold me my first car a Hyundai i30. The main inspiration behind this website. 
+* 
