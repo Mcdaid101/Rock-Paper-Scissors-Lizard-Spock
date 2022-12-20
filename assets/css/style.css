@@ -210,13 +210,14 @@ h1 {
     margin-bottom: 40px;
 }
 
-.about-area {
+form {
     max-width: 400px;
 	margin: 0 auto 0 auto;
 	border:  thin solid #e4e4e4;
 	padding: 20px;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     margin-bottom: 50px;
+    background-color: white;
 }
 
 form label {
