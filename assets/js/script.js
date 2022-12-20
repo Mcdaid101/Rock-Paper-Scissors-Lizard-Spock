@@ -162,3 +162,22 @@ const openModal = function () {
    }
   });
 
+
+
+/* about page */
+
+function showError(errorElement, errorMessage){
+  document.querySelector("."+errorElement).classList.add("display-error");
+  document.querySelector("."+errorElement).innerHTML = errorMessage;
+}
+
+let form = document.forms['signup-form'];
+form.onsubmit = function(event){
+
+  if(form.email.value === ""){
+    showError("email-error", "You must enter your email");
+    return false;
+  }
+
+  event.preventDefault();
+}
