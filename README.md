@@ -129,14 +129,14 @@ The sole font family used is imported from the Google Fonts website and is calle
 <details><summary>Home</summary>
 <p>
 
-![Website Mock Up](assets/images/readme-images/Home%20page.png)
+![Website Mock Up](assets/images/readme-images/Home-page.png)
 </p>
 </details>
 
 <details><summary>Sign up page</summary>
 <p>
 
-![Website Mock Up](assets/images/readme-images/About%20page.png)
+![Website Mock Up](assets/images/readme-images/about-page.png)
 </p>
 </details>
 
@@ -231,7 +231,7 @@ This website contains 2 webpages
 * Site owner needs: 1. 
 
 ## Sign up page 
-![Sign up page](assets/images/readme-images/sign%20up%20page.png)
+![Sign up page](assets/images/readme-images/signup-page.png)
 * The About page gives users the chance to sign up to receive news on future games by mcdaid games inc via the form on the page. 
 * A button below the logo will redirect users to the home page.
 * This page is fully responsive to any device screen 
@@ -251,6 +251,7 @@ This website contains 2 webpages
 * Site owner needs: 2, 4. 
 
 ## 404 page
+![404](assets/images/readme-images/404.png)
 * 404 page if something goes wrong.
 
 <br>
@@ -264,42 +265,19 @@ This website contains 2 webpages
 
 ## HTML validation 
 I tested the website with the W3C HTML Markup validation service and fixed anything that failed.
-<details><summary>HTML validation Screenshot</summary>
-<p>
-
-![html-validated](assets/readme.images/HTML-validator.png)
-
-</p>
-</details>
 
 <details><summary>Index.html</summary>
 <p>
 
-![html-validated](assets/readme.images/index.html.validated.png)
+![html-validated](assets/images/validation-screenshots/home-page-validated.png)
 
 </p>
 </details>
 
-<details><summary>Showroom</summary>
+<details><summary>Sign up page</summary>
 <p>
 
-![html-validated](assets/readme.images/showroom.html.validate.png)
-
-</p>
-</details>
-
-<details><summary>Contact</summary>
-<p>
-
-![html-validated](assets/readme.images/contact.html.validate.png)
-
-</p>
-</details>
-
-<details><summary>About</summary>
-<p>
-
-![html-validated](assets/readme.images/about.html.validate.png)
+![html-validated](assets/images/validation-screenshots/signup-page-validated.png)
 
 </p>
 </details>
@@ -309,8 +287,28 @@ I tested the website with the W3C CSS Markup validation service and fixed anythi
 <details><summary>CSS validation Screenshot</summary>
 <p>
 
-![CSS-validated](assets/readme.images/CSS-screenshot%20.png)
+![CSS-validated](assets/images/validation-screenshots/css-validated.png)
 
+</p>
+</details>
+
+<br>
+
+## Javascript validation 
+I tested the website with the W3C CSS Markup validation service and fixed anything that failed.
+<details><summary>CSS validation Screenshot</summary>
+<p>
+
+![script.js validation](assets/images/validation-screenshots/script-screenshot.png)
+![about.js validation](assets/images/validation-screenshots/about.js-screenshot.png)
+* I used the code "/*jshint esversion: 6 */
+
+const Suites = {
+    Spade: 1,
+    Heart: 2,
+    Diamond: 3,
+    Club: 4
+};" to get rid of the const and let errors that only esversion 6 would validate. After adding that code to my script, my javascript code produced no errors.
 </p>
 </details>
 
@@ -334,24 +332,6 @@ Google lighthouse was used to test the performance of the website
 
 </p>
 </details>
-
-<details><summary>Contact</summary>
-<p>
-
-![Lighthouse](assets/readme.images/contact.report.png)
-
-</p>
-</details>
-
-<details><summary>About</summary>
-<p>
-
-![Lighthouse](assets/readme.images/about-lighthouse-report.png)
-
-</p>
-</details>
-<br>
-
 
 ## Performance testing using different devices/browers
 The website was tested on three devices:

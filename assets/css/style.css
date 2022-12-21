@@ -383,23 +383,6 @@ footer {
        }
   }
 
-/* media query specifically for iphone 5 */
-  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
-and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
-{
-   #results {
-    font-size: .5rem;
-   }
-
-   .players {
-    font-size: .75rem;
-   }
-
-   #player {
-    padding-left: 22px;
-    color: blue;
-}
-}
  /* specfically for galaxy fold */
 @media(max-width: 320px){ 
     

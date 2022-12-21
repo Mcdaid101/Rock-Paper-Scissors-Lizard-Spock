@@ -21,4 +21,4 @@ document.forms['signup-form'].onsubmit = function(event){
        event.preventDefault();
        return false;
     }
- }	
+ };	

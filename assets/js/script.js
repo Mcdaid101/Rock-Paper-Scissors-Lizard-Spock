@@ -10,7 +10,6 @@ let scoreArea = document.querySelector(".score-area");
 
 let player;
 let computer;
-let result;
 let playerWins = 0;
 let computerWins = 0;
 scoreArea.prepend(playerWins);
@@ -163,7 +162,7 @@ const openModal = function () {
 
   const closeModal = function() {
     modal.classList.add("hidden");
-  }
+  };
 
   openModalBtn.addEventListener("click", openModal);
   closeModalBtn.addEventListener("click", closeModal);
