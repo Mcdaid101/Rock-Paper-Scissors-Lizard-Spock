@@ -25,6 +25,11 @@ controlBtns.forEach(button => button.addEventListener("click", () => {
   computerChoice.textContent = `Computer chose: ${computer}`;
   resultText.textContent = checkResult();
   scoreArea.textContent = playerWins  + ":" + computerWins;
+  if(playerWins >= 5){
+    alert("You win!");
+  } else if(computerWins >= 5){
+  alert("Nooo the computer beat you!");
+  }
 }));
 
 
