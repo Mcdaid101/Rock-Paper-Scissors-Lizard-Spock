@@ -26,9 +26,11 @@ controlBtns.forEach(button => button.addEventListener("click", () => {
   resultText.textContent = checkResult();
   scoreArea.textContent = playerWins  + ":" + computerWins;
   if(playerWins >= 5){
-    alert("You win!");
+    alert("Well done you won! Press ok to play again!");
+    location.reload();
   } else if(computerWins >= 5){
-  alert("Nooo the computer beat you!");
+  alert("Nooo the computer beat you! Press ok to try again");
+  location.reload();
   }
 }));
 
@@ -151,6 +153,7 @@ function checkResult() {
   /* winner text is returned containing the outcome*/
   return winnerText;
 }
+
 
 
 /* functions to open and close modal */
