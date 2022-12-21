@@ -102,6 +102,7 @@ This website was built for fans of the Big Bang Theory and Star trek. This fun o
 1. I want users to know how to play the game.
 2. I want users to be able to sign up to our site to receive news on future games. 
 3. I want users to be able to easily navigate the site. 
+4. I want users to know who made this game.
 <br>
 
 # Structure and Design  
@@ -123,32 +124,19 @@ The sole font family used is imported from the Google Fonts website and is calle
 <br>
 
 ## Wireframes
+* The wireframes designs are on a desktop, a tablet and a mobile phone. 
 
 <details><summary>Home</summary>
 <p>
 
-![Website Mock Up](assets/images/)
+![Website Mock Up](assets/images/readme-images/Home%20page.png)
 </p>
 </details>
 
-<details><summary>Showroom</summary>
+<details><summary>Sign up page</summary>
 <p>
 
-![Website Mock Up](assets/readme.images/showscreenshots%20.png)
-</p>
-</details>
-
-<details><summary>Contact</summary>
-<p>
-
-![Website Mock Up](assets/readme.images/contactscreenshot.png)
-</p>
-</details>
-
-<details><summary>About</summary>
-<p>
-
-![Website Mock Up](assets/readme.images/about.screenshot.png)
+![Website Mock Up](assets/images/readme-images/About%20page.png)
 </p>
 </details>
 
@@ -183,113 +171,86 @@ The sole font family used is imported from the Google Fonts website and is calle
 <br>
 
 # Features
-This website contains 4 webpages
+This website contains 2 webpages
 <br>
 
 <details><summary>Expand for Screenshots of each page and feature</summary>
 <p>
 
 ## Logo and navigation bar 
-![Logo and navigation bar](assets/readme.images/logo.nav.bar.png)
-* The logo and nav bar are on each page 
-* The nav bar and logo are fully responsive on every device screen size
-* It includes links to the Home page through clicking on the logo and the Home button along with links to the showroom, contact and about pages
-* When hovered over their is a red line to indicate you are interacting with it 
+![Logo](assets/images/readme-images/Logo.png)
+* The logo is a feature on both pages.
+* When clicked on it will bring you back to the home page.
 <br>
 
 ## Footer
-![Footer](assets/readme.images/footer.png)
-* The footer is also present on every page 
-* The footer contains a link to Facebook, Twitter, Instagram, Youtube and Tiktok
+![Footer](assets/images/readme-images/footer.png)
+* The footer is also present on each page 
+* The footer contains the name of Mc Daid games inc and the year the game was made. 
 * It is fully responsive to different screen sizes 
 <br>
 
-* The Footer covers the first time user stories: 4.    
-* Frequent user stories: 2.    
+* The Footer covers the user stories:      
 * Site owner needs: 2. 
 
 
 ## Home page
-![Home Page](assets/readme.images/home.page.png)
+![Home Page](assets/images/readme-images/home-screenshot.png)
 * This is the home page the first page users see
-* Users have a link to the contact page through the book a test drive link
-* Users have a link to the showroom to view other cars and 
-* The dealership's opening times can be viewed at bottom of the page
+* Users have a link to the sign up page under the logo 
+* Users have a modal they can open to learn the game rules and how it works 
+* Users can use the buttons to play the game and can see what button they pressed and the computers choice too along with the result
+* At the bottom of the page is the score area and the footer
 <br>
 
-* The Home page helps meet the first time user stories: 1, 4.
-* Returning user stories: 2, 3.      
-* Frequent user stories: 1, 2.     
-* Site owner needs: 1, 2. 
+* The Home page helps meet the first time user stories: 1, 2, 3, 4, 5, 6, 7, 8, 9.         
+* Site owner needs: 1, 3, 4. 
 
-## Showroom 
-![Showroom Page](assets/readme.images/showroom.page.png)
-* Showroom contains a gallery of cars 
-* The gallery is fully responsive to any device screen 
+## Game area 
+![Game area](assets/images/readme-images/game-area.png)
+* The game area contains the game buttons, the users choice, the computers choice and the result.
 <br>
 
-* The Showroom helps meet the first time user stories: 4.     
-* Frequent user stories: 1, 2.     
-* Site owner needs: 2. 
+* The Contact page helps meet the first time user stories: 2, 5, 7, 8.
 
-## Contact 
-![Contact Page](assets/readme.images/contact.page.png)
-* The contact page gives users the opportunity to contact the dealership or for the dealership to contact them
-* The contact page contains a contact form with the option of booking a test drive 
-* Telephone numbers, email and opening times are also present 
-* An embedded location of the dealership on Google maps can also be used on the contact page 
-* This page is fully responsive to any device screen 
+## Score Area 
+![Score Area](assets/images/readme-images/score-areaa.png)
+* The score area tells the user their score and the computers score. 
+* The scores will stop incrementing once they hit 5 and the winner will be revealed by an alert which will refresh the game afterwards. 
 <br>
 
-* The Contact page helps meet the first time user stories: 3, 4, 5.
-* Returning user stories: 1, 2, 3.      
-* Frequent user stories: 2.     
-* Site owner needs: 1, 3. 
+* The score area helps meet the first time user stories: 3, 4, 5. 
 
-## Form 
-![Contact Page](assets/readme.images/form.png)
-* The form is used as a contact point for users 
-* Once their details are submitted the dealership can ring them back 
-* It also allows them to book a test drive through a radio button
-* Fully responsive to any device screen size 
+## Modal rules pop up 
+![Rules pop up](assets/images/readme-images/rules-pop-up.png)
+* When users click on the how to play button this popup will appear explaining how the game works.
+* The user can click the X to to exit the popup.
 <br>
 
-* The Contact page helps meet the first time user stories: 5.
-* Returning user stories: 1, 2, 3.          
+* The rules pop up helps meet the first time user stories: 2, 6.   
 * Site owner needs: 1. 
 
-## Map 
-![Contact Page](assets/readme.images/map.png)
-* An embedded google maps location of the dealership 
-* Fully responsive to any device screen size 
-<br>
-
-* The Map helps meet the first time user stories: 3.   
-* Site owner needs: 3. 
-
-## About 
-![About Page](assets/readme.images/top.about.page.png)
-* The About page gives users more information about Tommy Keys Car Sales and gives a bit of history behind the company
-* An embedded youtube video tells the story of Tommy Keys Car Sales 
+## Sign up page 
+![Sign up page](assets/images/readme-images/sign%20up%20page.png)
+* The About page gives users the chance to sign up to receive news on future games by mcdaid games inc via the form on the page. 
+* A button below the logo will redirect users to the home page.
 * This page is fully responsive to any device screen 
 <br>
 
-* The About page helps meet the first time user stories: 1, 2, 3, 5.      
-* Frequent user stories: 2, 3.     
-* Site owner needs: 2. 
+* The sign up page helps meet the first time user stories: 5, 10.      
+* As a returning user stories: 1.  
+* Site owner needs: 2, 4. 
 
-## Youtube video
-![Contact Page](assets/readme.images/youtubevid.png)
-* An embedded youtube video of the story of Tommmy Keys car sales
-* Fully responsive to any device screen size 
+## Form
+![Form](assets/images/readme-images/form.png)
+* This form lets users know that they need to fill out their email, username and password before continuing. 
 <br>
 
-* The Youtube video helps meet the first time user stories: 2, 3.     
-* Frequent user stories: 3.     
-* Site owner needs: 2. 
+* The Form helps meet the first time user stories: 5.      
+* Returning user stories: 1.     
+* Site owner needs: 2, 4. 
 
 ## 404 page
-![404 page](assets/readme.images/404page2.png)
 * 404 page if something goes wrong.
 
 <br>

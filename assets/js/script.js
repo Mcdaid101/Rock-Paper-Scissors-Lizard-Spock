@@ -29,7 +29,7 @@ controlBtns.forEach(button => button.addEventListener("click", () => {
     alert("Well done you won! Exit this popup to play again!");
     location.reload();
   } else if(computerWins >= 5){
-  alert("Nooo the computer beat you! Exit this popup to try again");
+  alert("Oh Nooo the computer beat you! Exit this popup to try again");
   location.reload();
   }
 }));
