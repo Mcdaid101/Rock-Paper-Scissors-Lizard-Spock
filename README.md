@@ -57,7 +57,7 @@ I built this website from scratch using the knowledge I gained from the course w
 
 You can find a link to the live website [here](https://mcdaid101.github.io/Rock-Paper-Scissors-Lizard-Spock/).	
 
-## Tommy Keys Car Sales
+## Rock Paper Spock!
 ![Website Mock Up](assets/images/readme-images/multi-device-generator.png)
 This website was built for fans of the Big Bang Theory and Star trek. This fun online game of rock, paper, scissors incorporates the Star Trek character Spock and a lizard into the mix, giving the game many more outcomes. Many people will know this version of the game from the television series The Big Bang Theory.
 <br>
