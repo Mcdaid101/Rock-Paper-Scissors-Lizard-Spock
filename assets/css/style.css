@@ -285,6 +285,17 @@ form button:active {
     display: none;
 }
 
+/*footer */
+
+footer {
+    height: 75px;
+    font-size: 1.8rem;
+    margin-top: 100px;
+    background-color: #70bbe6;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
 /* media queries */
 
 @media (max-width: 1024px) {

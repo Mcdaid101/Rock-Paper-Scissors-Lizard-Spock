@@ -26,10 +26,10 @@ controlBtns.forEach(button => button.addEventListener("click", () => {
   resultText.textContent = checkResult();
   scoreArea.textContent = playerWins  + ":" + computerWins;
   if(playerWins >= 5){
-    alert("Well done you won! Press ok to play again!");
+    alert("Well done you won! Exit this popup to play again!");
     location.reload();
   } else if(computerWins >= 5){
-  alert("Nooo the computer beat you! Press ok to try again");
+  alert("Nooo the computer beat you! Exit this popup to try again");
   location.reload();
   }
 }));
