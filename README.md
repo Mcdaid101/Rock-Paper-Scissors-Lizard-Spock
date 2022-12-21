@@ -230,6 +230,16 @@ This website contains 2 webpages
 * The rules pop up helps meet the first time user stories: 2, 6.   
 * Site owner needs: 1. 
 
+## You won alert 
+![You won alert](assets/images/readme-images/win-alert.png)
+* When the player gets 5 wins they will receive an alert to let them know they have won and that the game will be restarted.
+<br>
+
+## You lost alert 
+![You lost alert](assets/images/readme-images/lose-alert.png)
+* When the computer gets 5 wins the player will receive an alert to let them know they have lost and the game will be restarted.
+<br>
+
 ## Sign up page 
 ![Sign up page](assets/images/readme-images/signup-page.png)
 * The About page gives users the chance to sign up to receive news on future games by mcdaid games inc via the form on the page. 
@@ -296,7 +306,7 @@ I tested the website with the W3C CSS Markup validation service and fixed anythi
 
 ## Javascript validation 
 I tested the website with the W3C CSS Markup validation service and fixed anything that failed.
-<details><summary>CSS validation Screenshot</summary>
+<details><summary>Javascript validation Screenshot</summary>
 <p>
 
 ![script.js validation](assets/images/validation-screenshots/script-screenshot.png)
@@ -539,6 +549,7 @@ Testing done to ensure users can easily navigate the site and all functions and 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
 | After submitting the form, you would be directed to a 405 page  | Used the code institute's form dump in the action element and set the method to post|
+| Favicon file sometimes would not load on certain devices and would display an error in the dev tools console  | placed it in the root directory and seems to have solved the problem|
 
 <br>
 
