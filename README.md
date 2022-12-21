@@ -320,15 +320,15 @@ Google lighthouse was used to test the performance of the website
 <details><summary>Home Page</summary>
 <p>
 
-![Lighthouse](assets/readme.images/Home.report.png)
+![Lighthouse](assets/images/performance/home-lighthouse.png)
 
 </p>
 </details>
 
-<details><summary>Showroom</summary>
+<details><summary>Sign up</summary>
 <p>
 
-![Lighthouse](assets/readme.images/showroom.report.png)
+![Lighthouse](assets/images/performance/sign-up-lighthouse.png)
 
 </p>
 </details>
@@ -347,56 +347,56 @@ Site fully functioning on each device and browser
 # Testing 
 
 ## Testing User Stories
-<br>
+<br> 
 
 ## First time stories 
-* As a first time user: I want to learn more about the site and easily navigate it. <br>
+* As a first time user: I want to be able to easily navigate the site.<br>
 Testing done to make sure that all links work so all users can easily navigate the page and eveyrthing is fully visible. 
 <details><summary>First time user 1</summary>
 <p>
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Nav bar | Check links on nav bar bring you to same page they are named after | Links when clicked bring you to page they are named after | Works as expected |
+|Links | Check links bring you to same page they are named after | Links when clicked bring you to page they are named after | Works as expected |
 </p>
 </details>
 <br>
 <br>
 
-* As a first time user: I want to be able to learn more about the business. <br>
- Testing done to ensure that the link to the about page is working and the text area and embedded youtube video is responsive to any device screen.
+* As a first time user: I want to be able to play the game.  <br>
+ Testing done to ensure that the game is fully functional.
 <details><summary>First time user 2</summary>
 <p>
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| About page | Click on about on nav bar and check that link brings you to about page | About button brings user to About page where they can learn more about the business | Works as expected |
+| Game | Click on buttons | You get the expected variable for which button you clicked and it appears in the "you chose:" area | Works as expected |
 </p>
 </details>
 <br>
 <br>
 
-* As a first time user: I want to engage with interactive content such as a video.<br>
- Testing done to ensure the youtube video on the about page is capable of playing along with changing the level of audio, also ensured it is responsive to any device screen.
+* As a first time user: I want to know what my score is in the game.<br>
+ Testing done to ensure that the players score is incremented properly and displayed in the score area.
 <details><summary>First time user 3</summary>
 <p>
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Youtube video | Navigate to about page and click on youtube video and check it plays  | Youtube video should be responsive to any device and have no problem playing video | Works as expected |
+|Score area | Play the game and if it says you won that round your score will go up  | Your score will go up by 1 | Works as expected |
 </p>
 </details>
 <br>
 <br>
 
-* As a first time user: I want to find out where exactly the business is located. <br>
- Testing done to ensure the link to the contact page is working and the embedded google map is functioning and showing the exact location of the car dealership. 
+* As a first time user: I want to know what my opponent's (the computer's) score is. <br>
+ Testing done to ensure that when the player loses a round the computers score goes up by 1.
 <details><summary>First time user 4</summary>
 <p>
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Map |Navigate to the contact page and view the embedded google maps of dealership location  | Google maps should be seen on any device screen as it is fully responsive | Works as expected |
+|Score area |Play the game and if it says you lost that round the computer's score will go up  | The computer's score goes up by 1 | Works as expected |
 </p>
 </details>
 <br>
@@ -415,139 +415,121 @@ Testing done to make sure that all links work so all users can easily navigate t
 <br>
 <br>
 
-* As a first time user: I want to be able to find contact information easily. <br>
-Testing done to ensure the links to the contact page are fully functioning and the contact form/box is fully visible and easily read. 
+* As a first time user: I want to know the rules of the game. <br>
+Testing done to ensure the modal pop up works and displays the rules of the game.
 <details><summary>First time user 6</summary>
 <p>
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Contact button | Navigate to contact page and ensure link brings you there, ensure the contact information below the form is clearly visible applying a blurred background to make the text more readable  | Able to navigate to the contact page successfully and easily find the contact info | Works as expected |
+|How to play modal | Click the how to play modal button  | Rules of the game are displayed on screen | Works as expected |
 </p>
 </details>
 <br>
 <br>
 
-## Returning stories 
-* As a returning user: I want to be able to submit a call back request on the contact form. <br>
- Testing done to ensure that the form on the about page has working input boxes with the correct input types, along with a functioning radio button and submit and reset buttons.
-<details><summary>Returning user 1</summary>
+* As a first time user: I want to know what button I chose.<br>
+ Testing done to ensure that the results section displays the button you clicked.
+<details><summary>First time user 7</summary>
 <p>
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Contact form |Navigate to the contact page, fill in the form entering your name, email and phone number and click submit form  | The contact form submits successfully | Works as expected |
+| Results area | Click a variable button such as spock  | The screen will display you chose spock | Works as expected |
 </p>
 </details>
 <br>
 <br>
 
-*  As a returning user: I want to be able to book a test drive for a new car that is coming out. <br>
- Testing done to ensure that the yes and no radio buttons that give the option of arranging a test drive are fully functioning along with the submit and reset form buttons. 
-<details><summary>Returning user 2</summary>
+*  As a first time user: I want to know what the computer picked in response. <br>
+ Testing done to ensure that once you click a button the computers choice will generate automatically after yours.
+<details><summary>First time user 8</summary>
 <p>
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Contact form |Navigate successfully to the contact form from the nav bar's page contact and fill in the form and click the yes radio button followed by submit |Code institute page will appear saying you have submitted your form successfully | Works as expected |
-|Book a test drive link on the home page | Navigate successfully to the contact form from the home page's book a test drive link and fill in the form and click the yes radio button followed by submit | Code institute page will appear saying you have submitted your form successfully | Works as expected |
+| Results area | Click a button, your choice will then display on screen | the computers choice will then appear afterwards beneath it | Works as expected |
 </p>
 </details>
 <br>
 <br>
 
-* As a returning user: I want to find out what days and times the dealership is open.<br>
-Testing done to ensure the link to the contact page is working and the what time and days the business are open on.
-<details><summary>Returning user 3</summary>
+* As a first time user: I want to know the result of that round. <br>
+Testing done to ensure the result of the round is displayed on the screen.
+<details><summary>First time user 9</summary>
 <p>
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Opening days and times at bottom of home page | Navigate to the bottom of the home page and view the opening times  | Opening times can be viewing clearly in a yellow color at the bottom of the home page | Works as expected |
-| Opening days and times at the bottom of the contact form | Navigate to the bottom of the contact page and view the opening times at the bottom of the form  | Opening times can be viewing clearly at the bottom of the form | Works as expected |
+| Playing the game | Play a round of the game to get the result  | Result of who won between player and computer will be outputted beneath their choices | Works as expected |
 </p>
 </details>
 <br>
 <br>
 
-## Frequent stories 
-* As a frequent user: I want to view the online showroom to see what cars are available. <br>
-Testing done to ensure that the links to the showroom page are active and that every image of each car is easily visible and responsive to any device screen size.
-<details><summary>Frequent user 1</summary>
+* As a first time user: I want to be able to easily navigate back to the home page. <br>
+Testing done to ensure that the links to the home page work.
+<details><summary>First time user 10</summary>
 <p>
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Showroom button on nav bar  | Check link on the nav bar brings you to the showroom | Link on nav bar brings you to the showroom | Works as expected |
-| Link to view other cars on the home page |check link on home page brings you to showrooom | Link brings you to showroom  | Works as expected |
+|Home button and logo links | Check link on the logo and home button work | Both links bring you to index.html | Works as expected |
 </p>
 </details>
 <br>
 <br>
 
-* As a frequent user: I want to check out the business's social medias which are linked to the site. <br>
-Testing done to ensure that each social media link on the footer of each page is working and sends the user to the correct site in a new tab. 
+## Returning stories
+
+* As a returning user: I want to be able to sign up to know about future games produced by the creator. <br>
+Testing done to ensure that the sign up form is fully functional.
 <details><summary>Frequent user 2</summary>
 <p>
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Footer |Check links on the footer bring you to each social medias site in a different tab | each icon's link brings you to its assigned social media website  | Works as expected |
-</p>
-</details>
-<br>
-<br>
-
-* As a frequent user: I want to learn more about the business through their videos. <br>
-Testing done to ensure that the link to the about page is fully funcioning and the embedded youtube and it's functions are working and are responsive to any screen size. 
-<details><summary>Frequent user 3</summary>
-<p>
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-|Youtube video | Navigate to about page and click on youtube video and check it plays  | Youtube video should be responsive to any device and have no problem playing video | Works as expected |
+|Sign up form | fill in the sign up form correctly and submit it | once submitted you will be directed to the code institute's form dump page  | Works as expected |
 </p>
 </details>
 <br>
 <br>
 
 ## Owner stories 
-* As the site owner: I want users to be able to contact the business easily. <br>
-Testing done to ensure that users on the site can easily navigate to the contact page and see the contact info clearly on the page along with a contact form which can be filled out to arrange a call back from the business. 
+* As the site owner: I want users to know how to play the game. <br>
+Testing done to ensure that the modal popup containing the game rules works.
 <details><summary>Site owner 1</summary>
 <p>
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Contact button | Navigate to contact page and ensure link brings you there, ensure the contact information below the form is clearly visible applying a blurred background to make the text more readable  | Able to navigate to the contact page successfully and easily find the contact info | Works as expected |
-|Form | Navigate to contact page and ensure link brings you there, ensure the form can be submitted with the users details so the business can call them back | Able to navigate to the contact page successfully and easily find the contact info and submit the users details| Works as expected |
-| Footer| Ensure social media links work so user can contact business through them | the social media links bring the user to the business social media | Works as expected |
+|Modal pop up | click on the how to play pop up  | The rules for the game are displayed on the screen | Works as expected |
 </p>
 </details>
 <br>
 <br>
 
-* As the site owner: I want users to get to know my business. <br>
-Testing done to ensure that links to the about page are fully functioning and information about the business is clearly visible and presented well along with a functioning and fully resposive youtube video.
+* As the site owner: I want users to be able to sign up to our site to receive news on future games.  <br>
+Testing done to ensure that the sign up form is fully functional. 
 <details><summary>Site owner 2</summary>
 <p>
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|About page | Check to see the about page can be navigated to, it's text is clearly visible against the hero image background and its youtube video can be played and is fully responsive on any device | About page navigated to easily and text is visible and everything is fully responsive | Works as expected |
+|Sign up form | fill in the sign up form correctly and submit it | once submitted you will be directed to the code institute's form dump page  | Works as expected |
 </p>
 </details>
 <br>
 <br>
 
-* As the site owner: I want users to know where my business is located. <br>
-Testing done to ensure users can easily navigate to the contact section and see the location of the dealership on the fully responsive google maps which is displayed on the page. 
+* As the site owner: I want users to be able to easily navigate the site.  <br>
+Testing done to ensure users can easily navigate the site and all functions and links work.
 <details><summary>Site owner 3</summary>
 <p>
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|Map | Navigate to the contact page and see the google maps embedded live image of the dealership's location  | After navigating to the contact page you will see a google maps map of the dealerships exact location | Works as expected |
+| Links and functions | Ensure all links and game is working | All links and features are working | Works as expected |
 </p>
 </details>
 <br>
@@ -556,10 +538,7 @@ Testing done to ensure users can easily navigate to the contact section and see 
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-|Text on certain pages was hard to read against the image background beneath it.  | Used the glass morphism generator code from Glass Ui to blur the background slightly making the text more readable. |
-| The form and map on the Contact page were failing to fit on the page when viewed from a mobile |Changed the display to flex and used a media query to change the display from a column to a row. |
-| The user was able to submit the contact form with nothing inputted to the text boxes.  | Added a required attribute to the input fields. |
-| Youtube video failing to be responsive to any other device screen size than the one I had initially embedded it on. | Placed the Iframe within a container and gave it the position of relative and gave the Iframe itself a position of absolute, this made the youtube video responsive.  |
+| After submitting the form, you would be directed to a 405 page  | Used the code institute's form dump in the action element and set the method to post|
 
 <br>
 
@@ -570,7 +549,7 @@ This project was created by navigating to the Code Institute's student template 
 Rock-Paper-Scissors-Lizard-Spock" and included all branches. With the repository now created, I used the browser version of Vs Code to create the project. 
 <br>
 
-I used the following commans throughout this project:
+I used the following commands throughout this project:
 * Git add . - This added my file to the staging area to be committed
 * Git commit -m - This command committed any changes to the local repository along with a message
 * Git push - pushed my changes to the github repository 
@@ -596,10 +575,17 @@ I used the following commans throughout this project:
 # Credits 
 
 ## Code 
-* 
+* Javascript and css code for the form validator is inspired from a video on youtube from digitalfox tutorials you can find the link [here](https://www.youtube.com/watch?v=nNIr0lF7KnU)
+* Code for the run game function is inspired form a video on youtube from Bro code you can find the link [here](https://www.youtube.com/watch?v=n1_vHArDBRA)
+* Code for the open modal function and css is from free-code-camp, you can find a link to the article [here](https://www.freecodecamp.org/news/how-to-build-a-modal-with-javascript/)
 
 ## Media 
-*
+* The Spock.png file is taken from duckicon.com and is the website's favicon. 
+* The images used in the buttons are all taken from Iconduck.com.
+* Icons used in the site logo and McDaid games logo are from fontawesome.com
+* All other images are my own.
 
 ## Acknowledgements 
-* 
+* I would like to thank my mentor Ronan Mc Clelland for his help and guidance while I built this project.
+* I would like to thank my family for their love and support.
+* And finally my girlfriend for help testing my game on her mobile. 

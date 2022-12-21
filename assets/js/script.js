@@ -15,7 +15,7 @@ let computerWins = 0;
 scoreArea.prepend(playerWins);
 scoreArea.append(computerWins);
 
-/* event listener for each variable's buttons this kicks off the functions inside */
+/* event listener for each variable's buttons this kicks off the functions inside and runs the game*/
 controlBtns.forEach(button => button.addEventListener("click", () => {
 
   player = button.textContent;
