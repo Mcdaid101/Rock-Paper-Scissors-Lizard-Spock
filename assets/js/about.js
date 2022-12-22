@@ -1,4 +1,4 @@
-
+/* code from digital fox tutorials see read me for more info */
 document.forms['signup-form'].onsubmit = function(event){
 
     if(this.email.value.trim() === ""){

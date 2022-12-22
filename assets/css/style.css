@@ -28,7 +28,7 @@ h1 {
 }
 
 /* modal */
-
+/* modal css inspired from free code camp **see read me for more info** */
 .modal {
     display: flex;
     flex-direction: column;
@@ -210,6 +210,7 @@ h1 {
     margin-bottom: 40px;
 }
 
+/* form css inspired from digital fox tutorials **see read me for more info** */
 form {
     max-width: 400px;
 	margin: 0 auto 0 auto;

@@ -14,7 +14,7 @@ let playerWins = 0;
 let computerWins = 0;
 scoreArea.prepend(playerWins);
 scoreArea.append(computerWins);
-
+/* function inspired by bro code on youtube see read me for more info */
 /* event listener for each variable's buttons this kicks off the functions inside and runs the game*/
 controlBtns.forEach(button => button.addEventListener("click", () => {
 
@@ -154,7 +154,7 @@ function checkResult() {
 }
 
 
-
+/* code from free code camp */
 /* functions to open and close modal */
 const openModal = function () {
     modal.classList.remove("hidden");
